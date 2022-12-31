@@ -1,9 +1,9 @@
-const elementH1 = React.createElement('h1', {
-    'id': 'heading-1'
-}, 'Namaste React');
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 const heading1 = React.createElement('h1', 
 { id: 'heading-1' },
- 'Heading 1');
+ 'Heading 1 from parcel');
 const heading2 = React.createElement('h2',
  { id: 'heading-2' },
   'Heading 2');
