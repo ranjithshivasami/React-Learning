@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react-learning",
+  "version": "1.0.0",
+  "description": "Learning React Js",
+  "main": "App.js",
+  "scripts": {
+    "test": "jtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjithshivasami/React-Learning.git"
+  },
+  "author": "Ranjith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjithshivasami/React-Learning/issues"
+  },
+  "homepage": "https://github.com/ranjithshivasami/React-Learning#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
