@@ -1,14 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Body from './src/components/Body';
+import Header from './src/components/Header';
 
-const heading1 = React.createElement('h1', 
-{ id: 'heading-1' },
- 'Heading 1 from parcel');
-const heading2 = React.createElement('h2',
- { id: 'heading-2' },
-  'Heading 2');
-const container = React.createElement('div',
- { id: 'container' },
-  [heading1, heading2]);
+const App = () =>{
+  /**
+   * Header
+   *  -Logo
+   *  -Menu
+   * Body
+   *  -Search
+   *  -Restaurant card
+   *    - imgae
+   *    - Title 
+   *    - Discription
+   * Footer
+   */
+  return<>
+    <Header />
+    <Body />
+  </>
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(container);
+root.render(<App />);
